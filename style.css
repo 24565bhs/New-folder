@@ -1,4 +1,5 @@
 h1 {
+    background-color: crimson;
     margin-top: -10px;
     font-size: 70px;
     color: white;
@@ -28,5 +29,6 @@ p {
 
 body {
     background-color: rgb(255, 145, 145);
+    line-height: 1.6
 }
 
