@@ -8,9 +8,10 @@ h1 {
 }   
 
 img {
-    width: 105%;
     height: auto;
     border-radius: 12px;
+    width: 300px;
+    border-radius: 8px;
 }
 
 p {
@@ -33,3 +34,12 @@ body {
     line-height: 1.6
 }
 
+.pop-image {
+width: 100%;
+transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.pop-image:hover {
+  transform: scale(1.05); /* Scales the image up by 5% */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow */
+}
