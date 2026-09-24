@@ -34,10 +34,14 @@ body {
     line-height: 1.6
 }
 
+/* This is the animation where when you hover over the image it pops */
+
 .pop-image {
     width: 100%;
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
 }
+
+/* This adds the shadow to make the pop look better */
 
 .pop-image:hover {
     transform: scale(1.05); /* Scales the image up by 5% */
